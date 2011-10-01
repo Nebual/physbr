@@ -1,0 +1,23 @@
+{
+'MapVersion':1,
+'Background':"ATestForTheHardOfThinking.png",
+'CameraStart':(0,0),
+'PlayerSpawn': (80,500),
+'Entities':[
+	{'x':600,'y':600,'model':'cube.png'},
+	{'x':590,'y':10,'model':'pad.png', 'ang':'180', 'gravity':False,'wiredetails':{'WireName':"Pad2"}},
+	{'x':0,'y':550,'model':'door-left.png','gravity':False},
+	{'x':400,'y':650,'model':'switch.png', 'gravity':False,'wiredetails':{'WireName':"GravitySwitch","Outputs":["Gravitier"]}},
+],
+'TriggerEntities':[
+	{'modelclass':'wire_gravitier','wiredetails':{'WireName':"Gravitier",'OnGravity':(0,-1)}},
+],
+'Collisions':[
+	(0,720,2000,1000),
+	(0,0,50,1000),
+	(0,0,2000,20),
+	(1000,0,1050,1000)
+],
+'Music':"facility/DoKashiteru_-_Recommencer.mp3"
+}
+#Collisions wants a tuple of (leftx,topy,rightx,bottomy).

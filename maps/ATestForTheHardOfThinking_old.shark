@@ -1,0 +1,29 @@
+{
+'MapVersion':1,
+'Background':"ATestForTheHardOfThinking.png",
+'CameraStart':(0,0),
+'PlayerSpawn': (80,750),
+'Entities':[
+	{'x':1000,'y':800,'model':'cube.png'},
+	{'x':1080,'y':800,'model':'cube.png'},
+	{'x':1300,'y':789,'model':'switch.png','gravity':False,'wiredetails':{'WireName':"Switch1","Outputs":["Dispenser1"]}},
+	{'x':800,'y':45,'model':'pad.png', 'ang':'180', 'gravity':False,'wiredetails':{'WireName':"Pad2",'Outputs':['Dispenser1']}},
+	{'x':800,'y':830,'model':'pad.png', 'gravity':False,'wiredetails':{'WireName':"Pad1",'Outputs':['Dispenser1']}},
+	{'x':600,'y':830,'model':'magnetic-pad.png','gravity':False},
+	{'x':20,'y':700,'model':'door-left.png','gravity':False},
+	{'x':500,'y':0,'model':'dispenser.png','gravity':False,'wiredetails':{'WireName':"Dispenser1"}},
+	{'x':300,'y':789,'model':'button.png', 'gravity':False,'wiredetails':{'WireName':"Button1","Outputs":["Dispenser1"]}},
+	{'x':400,'y':785,'model':'switch.png', 'gravity':False,'wiredetails':{'WireName':"GravitySwitch","Outputs":["Gravitier"]}},
+],
+'TriggerEntities':[
+	{'modelclass':'wire_gravitier','wiredetails':{'WireName':"Gravitier",'OnGravity':(0,-1)}},
+],
+'Collisions':[
+	(0,850,2000,1000),
+	(0,0,50,1000),
+	(0,0,2000,20),
+	(1950,0,2000,1000)
+],
+'Music':"facility/DoKashiteru_-_Recommencer.mp3"
+}
+#Collisions wants a tuple of (leftx,topy,rightx,bottomy).

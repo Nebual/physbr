@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="640px"
+   height="480px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="door-left.svg"
+   inkscape:export-filename="/home/alexander/Dropbox/NebtownPython/physbr/models/images/door-left.png"
+   inkscape:export-xdpi="37.546875"
+   inkscape:export-ydpi="37.546875">
+  <defs
+     id="defs2987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.77472527"
+     inkscape:cx="164.22428"
+     inkscape:cy="240"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect2985-7"
+       width="199.67226"
+       height="257.05597"
+       x="330.69485"
+       y="437.95703"
+       transform="matrix(0.64459412,-0.76452496,0,1,0,0)"
+       ry="25.815596" />
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect2985"
+       width="199.25804"
+       height="257.05597"
+       x="332.18216"
+       y="455.46591"
+       transform="matrix(0.64270442,-0.76611424,0,1,0,0)" />
+    <rect
+       style="fill:#ff2328;fill-opacity:1;stroke:none"
+       id="rect3817"
+       width="24.470991"
+       height="274.36725"
+       x="487.19528"
+       y="500.04333"
+       transform="matrix(0.5802209,-0.81445915,0,1,0,0)" />
+  </g>
+</svg>

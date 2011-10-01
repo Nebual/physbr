@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64px"
+   height="64px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="dispenser.svg"
+   inkscape:export-filename="/home/alexander/Dropbox/NebtownPython/physbr/models/images/dispenser.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2987" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.9445436"
+     inkscape:cx="-77.413166"
+     inkscape:cy="32"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       sodipodi:type="arc"
+       style="fill:#313131;fill-opacity:1;stroke:none"
+       id="path3770"
+       sodipodi:cx="-22.909092"
+       sodipodi:cy="27.272726"
+       sodipodi:rx="30.909092"
+       sodipodi:ry="15.454546"
+       d="m 8,27.272726 a 30.909092,15.454546 0 1 1 -61.818184,0 30.909092,15.454546 0 1 1 61.818184,0 z"
+       transform="matrix(1,0,0,0.53529413,54.909092,-3.6898405)" />
+    <rect
+       style="fill:#636363;fill-opacity:1;stroke:none"
+       id="rect3813"
+       width="50"
+       height="25.454546"
+       x="7.090909"
+       y="24.909092"
+       ry="4.7078986" />
+    <rect
+       style="fill:#313131;fill-opacity:1;stroke:none"
+       id="rect3043"
+       width="61.818184"
+       height="28.727272"
+       x="1.090909"
+       y="7.4545455"
+       ry="4.7078986" />
+    <rect
+       style="fill:#ff2328;fill-opacity:1;stroke:none"
+       id="rect3810-0"
+       width="2.1818182"
+       height="27.272726"
+       x="31.09091"
+       y="6.181819"
+       ry="1.6363636" />
+    <rect
+       style="fill:#ff2328;fill-opacity:1;stroke:none"
+       id="rect3810-3"
+       width="1.9636364"
+       height="25.454544"
+       x="43.200005"
+       y="8.000001"
+       ry="1.5272727" />
+    <rect
+       style="fill:#ff2328;fill-opacity:1;stroke:none"
+       id="rect3810-0-4"
+       width="1.7672727"
+       height="23.272726"
+       x="7.2981806"
+       y="10.000001"
+       ry="1.3963636" />
+    <rect
+       style="fill:#ff2328;fill-opacity:1;stroke:none"
+       id="rect3810-3-4"
+       width="1.9636364"
+       height="25.454544"
+       x="19.199999"
+       y="7.8181829"
+       ry="1.5272727" />
+    <rect
+       style="fill:#ff2328;fill-opacity:1;stroke:none"
+       id="rect3810-3-3"
+       width="1.7672727"
+       height="23.272726"
+       x="55.298187"
+       y="10.181819"
+       ry="1.3963636" />
+  </g>
+</svg>

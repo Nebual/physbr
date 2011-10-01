@@ -1,0 +1,33 @@
+This is basically a changelog but we're too early in development to call it that. 
+This is both to indicate progress and as interteam communication.
+Don't edit previous entries, if you forgot to mention something just speak of it later.
+
+Tue Aug 2:
+	Entities can now roll, and have Xfriction (currently they have the same friction while in the air too, unsure if this is undesired), both are modelinfo's.
+	Yes I know rolling looks really choppy, its because the image is resizing, I'll need to draw images from the center outwards to correct it...
+	The objects players carry now have collisions.
+	Player collisions sometimes mess up a tiny bit, more testing required <- Damn right, I can use the spheres to throw myself through walls! XD
+	Nonplayer entities now have x collisions
+
+Mon Aug 1:
+	Created a C module (physbr.c/physbr.pyd) we can offload costly tasks to... unfortunately it has a significant overhead when getting parameters from python
+	
+Sat July 30:
+	Changed collisions to now have pent-up force (instead of stopping dead). For example, a dropped cube bounces a little.
+	Created a framework for wiring elements.
+
+Thur July 28:
+	Added model data for stuff like mass and the type of entity.
+	LETS SEE SOME MUSIC IN HERE PEOPLE <-Look in /music silly. GOOD WORK IN HERE PEOPLE I THINK YOU MEAN "PERSON"
+	Changed grabbing ents to be E, only prop entities can be grabbed.
+	Added ply.FacingLeft and autogenning the animations. Also centered the dude so movement is faster
+	Width and height are now derived from hitmasks, hitmasks are now optimized to be as small as possible (the smallest square that the pixels can fit in, trimming away bits)
+	All hitmasks, and width/height data, is now stored in G.HitmasksCache, which is saved to a single compressed file with insane savings! (the 4 models we had totaled 280kb, the new compressed file is under 2kb)
+
+Wed July 27:
+	Added copytoclipboard(text) crossplatform
+	Middleclicking now copys "x,y" coordinates to clipboard [line 243]
+	Entities besides player now have gravity
+	Player can pick up ents by clicking and holding on them <-The coobs don't collide SIDEWAYS with one another for some reason. Picked up shit has no collisions, working on it
+	Camera scrolls as player moves
+	Playermodel now has basic animation

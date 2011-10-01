@@ -1,0 +1,1 @@
+"C:\\Program Files\\7-Zip\\7z.exe" a -r -xr!music -xr!"Pythonless Executable" -xr!*.pyc backups/%DATE:~-4%-%DATE:~4,2%-%DATE:~7,2%.7z * 
